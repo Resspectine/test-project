@@ -23,3 +23,7 @@ export const StyledTableCell = styled.div<{ isCentered: boolean }>`
   padding: 10px 30px;
   ${props => props.isCentered && 'text-align: center;'}
 `;
+
+export const StyledTableUtilites = styled.div`
+  display: flex;
+`;

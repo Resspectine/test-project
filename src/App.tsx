@@ -15,7 +15,7 @@ const data: CellData[] = [
   },
   {
     date: new Date().toDateString(),
-    name: 'Maks',
+    name: 'Olya',
     overtime: 13,
     regularHours: 1,
     time: '123-12',
@@ -23,7 +23,7 @@ const data: CellData[] = [
   },
   {
     date: new Date().toDateString(),
-    name: 'Maks',
+    name: 'Alisa',
     overtime: 13,
     regularHours: 1,
     time: '123-12',
