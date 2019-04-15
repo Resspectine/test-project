@@ -6,27 +6,27 @@ import { Header } from './Table/TableElements/TableHeader';
 
 const data: CellData[] = [
   {
-    date: new Date().toDateString(),
+    date: new Date(),
     name: 'Maks',
     overtime: 13,
     regularHours: 1,
-    time: '123-12',
+    time: new Date(),
     totalHours: 14,
   },
   {
-    date: new Date().toDateString(),
+    date: new Date(),
     name: 'Olya',
     overtime: 13,
     regularHours: 1,
-    time: '123-12',
+    time:new Date(),
     totalHours: 14,
   },
   {
-    date: new Date().toDateString(),
+    date: new Date(),
     name: 'Alisa',
     overtime: 13,
     regularHours: 1,
-    time: '123-12',
+    time: new Date(),
     totalHours: 14,
   },
 ]

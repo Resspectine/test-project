@@ -3,8 +3,8 @@ import React from 'react';
 import {StyledTableHeader, StyledTableCell} from '../Table.styled';
 
 export interface Header {
-  name: string
-  isCentered: boolean
+  name: string;
+  isCentered: boolean;
 }
 
 export interface Headers {

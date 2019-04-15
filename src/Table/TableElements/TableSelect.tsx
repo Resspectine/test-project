@@ -7,7 +7,7 @@ export interface Props {
   onChange: (names: string[]) => void;
 };
 
-const TableHeader: React.FC<Props> = ({ names, onChange }) => {
+const TableSelect: React.FC<Props> = ({ names, onChange }) => {
   const options = names.map(name => ({
     label: name,
     value: name.toLowerCase(),
@@ -20,4 +20,4 @@ const TableHeader: React.FC<Props> = ({ names, onChange }) => {
   return <Select options={options} isMulti closeMenuOnSelect={false} onChange={filterSelect} />
 };
 
-export default TableHeader;
+export default TableSelect;
